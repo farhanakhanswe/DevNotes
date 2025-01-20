@@ -1,0 +1,10 @@
+(1) To Fix the Last Commit Message
+
+          git commit --amend -m "Add correct message"
+          git push --force
+
+    (Q) Why are we not specifying branch name?
+        - Default Behavior: When no branch is specified, Git assumes you're pushing to the branch you have currently checked out (i.e., the branch you're actively working on).
+        - If you want to explicitly specify the branch you're pushing to, you can include it in the command like this:
+
+          git push --force origin <branch-name>
